@@ -1,0 +1,5 @@
+Install go version 1.7.4:
+
+$ GOPATH=$(mktemp -d) GOBIN=$(pwd) go get github.com/wjkohnen/go1.7.4
+$ sudo cp go1.7.4 /usr/local/bin
+$ go1.7.4 download
